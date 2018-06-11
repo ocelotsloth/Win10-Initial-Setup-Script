@@ -26,18 +26,18 @@ $tweaks = @(
 	"DisableWebLangList",           # "EnableWebLangList",
 	"DisableCortana",               # "EnableCortana",
 	"DisableErrorReporting",        # "EnableErrorReporting",
-	# "SetP2PUpdateLocal",          # "SetP2PUpdateInternet",
+	"SetP2PUpdateLocal",          # "SetP2PUpdateInternet",
 	"DisableDiagTrack",             # "EnableDiagTrack",
 	"DisableWAPPush",               # "EnableWAPPush",
 
 	### Security Tweaks ###
 	# "SetUACLow",                  # "SetUACHigh",
 	# "EnableSharingMappedDrives",  # "DisableSharingMappedDrives",
-	"DisableAdminShares",           # "EnableAdminShares",
+	# "DisableAdminShares",           # "EnableAdminShares",
 	# "DisableSMB1",                # "EnableSMB1",
 	# "DisableSMBServer",           # "EnableSMBServer",
 	# "DisableLLMNR",               # "EnableLLMNR",
-	"SetCurrentNetworkPrivate",     # "SetCurrentNetworkPublic",
+	# "SetCurrentNetworkPrivate",     # "SetCurrentNetworkPublic",
 	# "SetUnknownNetworksPrivate",  # "SetUnknownNetworksPublic",
 	# "DisableNetDevicesAutoInst",  # "EnableNetDevicesAutoInst",
 	# "EnableCtrldFolderAccess",    # "DisableCtrldFolderAccess",
@@ -45,81 +45,81 @@ $tweaks = @(
 	# "DisableDefender",            # "EnableDefender",
 	# "DisableDefenderCloud",       # "EnableDefenderCloud",
 	"EnableF8BootMenu",             # "DisableF8BootMenu",
-	"SetDEPOptOut",                 # "SetDEPOptIn",
+	# "SetDEPOptOut",                 # "SetDEPOptIn",
 	# "EnableCIMemoryIntegrity",    # "DisableCIMemoryIntegrity",
-	"DisableScriptHost",            # "EnableScriptHost",
+	# "DisableScriptHost",            # "EnableScriptHost",
 	"EnableDotNetStrongCrypto",     # "DisableDotNetStrongCrypto",
 	# "EnableMeltdownCompatFlag"    # "DisableMeltdownCompatFlag",
 
 	### Service Tweaks ###
 	# "DisableUpdateMSRT",          # "EnableUpdateMSRT",
 	# "DisableUpdateDriver",        # "EnableUpdateDriver",
-	"DisableUpdateRestart",         # "EnableUpdateRestart",
+	# "DisableUpdateRestart",       # "EnableUpdateRestart",
 	# "DisableHomeGroups",          # "EnableHomeGroups",
 	"DisableSharedExperiences",     # "EnableSharedExperiences",
-	"DisableRemoteAssistance",      # "EnableRemoteAssistance",
-	"EnableRemoteDesktop",          # "DisableRemoteDesktop",
+	# "DisableRemoteAssistance",      # "EnableRemoteAssistance",
+	# "EnableRemoteDesktop",          # "DisableRemoteDesktop",
 	"DisableAutoplay",              # "EnableAutoplay",
 	"DisableAutorun",               # "EnableAutorun",
-	# "EnableStorageSense",         # "DisableStorageSense",
-	# "DisableDefragmentation",     # "EnableDefragmentation",
+	"EnableStorageSense",         # "DisableStorageSense",
+	"DisableDefragmentation",     # "EnableDefragmentation",
 	# "DisableSuperfetch",          # "EnableSuperfetch",
 	# "DisableIndexing",            # "EnableIndexing",
 	# "SetBIOSTimeUTC",             # "SetBIOSTimeLocal",
 	# "EnableHibernation",          # "DisableHibernation",
 	# "DisableSleepButton",         # "EnableSleepButton",
 	# "DisableSleepTimeout",        # "EnableSleepTimeout",
-	# "DisableFastStartup",         # "EnableFastStartup",
+	"DisableFastStartup",         # "EnableFastStartup",
 
 	### UI Tweaks ###
 	"DisableActionCenter",          # "EnableActionCenter",
 	"HideAccountProtectionWarn",    # "ShowAccountProtectionWarn",
-	"DisableLockScreen",            # "EnableLockScreen",
+	# "DisableLockScreen",            # "EnableLockScreen",
 	# "DisableLockScreenRS1",       # "EnableLockScreenRS1",
-	"HideNetworkFromLockScreen",    # "ShowNetworkOnLockScreen",
-	"HideShutdownFromLockScreen",   # "ShowShutdownOnLockScreen",
+	# "HideNetworkFromLockScreen",    # "ShowNetworkOnLockScreen",
+	# "HideShutdownFromLockScreen",   # "ShowShutdownOnLockScreen",
 	"DisableStickyKeys",            # "EnableStickyKeys",
 	"ShowTaskManagerDetails"        # "HideTaskManagerDetails",
 	"ShowFileOperationsDetails",    # "HideFileOperationsDetails",
-	# "EnableFileDeleteConfirm",    # "DisableFileDeleteConfirm",
-	"HideTaskbarSearch",            # "ShowTaskbarSearchIcon",      # "ShowTaskbarSearchBox",
-	"HideTaskView",                 # "ShowTaskView",
-	"ShowSmallTaskbarIcons",        # "ShowLargeTaskbarIcons",
-	"SetTaskbarCombineWhenFull",    # "SetTaskbarCombineNever",     # "SetTaskbarCombineAlways",
+	"EnableFileDeleteConfirm",    # "DisableFileDeleteConfirm",
+	# "HideTaskbarSearch",            # "ShowTaskbarSearchIcon",      # "ShowTaskbarSearchBox",
+	# "HideTaskView",                 # "ShowTaskView",
+	# "ShowSmallTaskbarIcons",        # "ShowLargeTaskbarIcons",
+	"SetTaskbarCombineAlways",      # "SetTaskbarCombineWhenFull",    # "SetTaskbarCombineNever",     # "SetTaskbarCombineAlways",
 	"HideTaskbarPeopleIcon",        # "ShowTaskbarPeopleIcon",
-	"ShowTrayIcons",                # "HideTrayIcons",
+	# "ShowTrayIcons",                # "HideTrayIcons",
 	"DisableSearchAppInStore",      # "EnableSearchAppInStore",
-	"DisableNewAppPrompt",          # "EnableNewAppPrompt",
-	# "SetControlPanelSmallIcons",  # "SetControlPanelLargeIcons",  # "SetControlPanelCategories",
+	# "DisableNewAppPrompt",          # "EnableNewAppPrompt",
+	"SetControlPanelSmallIcons",  # "SetControlPanelLargeIcons",  # "SetControlPanelCategories",
 	"SetVisualFXPerformance",       # "SetVisualFXAppearance",
 	# "AddENKeyboard",              # "RemoveENKeyboard",
 	# "EnableNumlock",              # "DisableNumlock",
 
 	### Explorer UI Tweaks ###
 	"ShowKnownExtensions",          # "HideKnownExtensions",
-	"ShowHiddenFiles",              # "HideHiddenFiles",
-	# "HideSelectCheckboxes",       # "ShowSelectCheckboxes",
+	# "ShowHiddenFiles",              # "HideHiddenFiles",
+	"HideSelectCheckboxes",       # "ShowSelectCheckboxes",
 	"HideSyncNotifications"         # "ShowSyncNotifications",
-	"HideRecentShortcuts",          # "ShowRecentShortcuts",
+	# "HideRecentShortcuts",          # "ShowRecentShortcuts",
 	"SetExplorerThisPC",            # "SetExplorerQuickAccess",
 	"ShowThisPCOnDesktop",          # "HideThisPCFromDesktop",
-	# "ShowUserFolderOnDesktop",    # "HideUserFolderFromDesktop",
-	"HideDesktopFromThisPC",        # "ShowDesktopInThisPC",
+	"ShowUserFolderOnDesktop",    # "HideUserFolderFromDesktop",
+	# "HideDesktopFromThisPC",        # "ShowDesktopInThisPC",
 	# "HideDesktopFromExplorer",    # "ShowDesktopInExplorer",
-	"HideDocumentsFromThisPC",      # "ShowDocumentsInThisPC",
+	# "HideDocumentsFromThisPC",      # "ShowDocumentsInThisPC",
 	# "HideDocumentsFromExplorer",  # "ShowDocumentsInExplorer",
-	"HideDownloadsFromThisPC",      # "ShowDownloadsInThisPC",
+	# "HideDownloadsFromThisPC",      # "ShowDownloadsInThisPC",
 	# "HideDownloadsFromExplorer",  # "ShowDownloadsInExplorer",
-	"HideMusicFromThisPC",          # "ShowMusicInThisPC",
+	# "HideMusicFromThisPC",          # "ShowMusicInThisPC",
 	# "HideMusicFromExplorer",      # "ShowMusicInExplorer",
-	"HidePicturesFromThisPC",       # "ShowPicturesInThisPC",
+	# "HidePicturesFromThisPC",       # "ShowPicturesInThisPC",
 	# "HidePicturesFromExplorer",   # "ShowPicturesInExplorer",
-	"HideVideosFromThisPC",         # "ShowVideosInThisPC",
+	# "HideVideosFromThisPC",         # "ShowVideosInThisPC",
 	# "HideVideosFromExplorer",     # "ShowVideosInExplorer",
-	"Hide3DObjectsFromThisPC",      # "Show3DObjectsInThisPC",
+	# "Hide3DObjectsFromThisPC",      # "Show3DObjectsInThisPC",
 	# "Hide3DObjectsFromExplorer",  # "Show3DObjectsInExplorer",
 	# "DisableThumbnails",          # "EnableThumbnails",
-	"DisableThumbnailCache",        # "EnableThumbnailCache",
+	# "DisableThumbnailCache",        # "EnableThumbnailCache",
 	"DisableThumbsDBOnNetwork",     # "EnableThumbsDBOnNetwork",
 
 	### Application Tweaks ###
@@ -129,7 +129,7 @@ $tweaks = @(
 	"UninstallThirdPartyBloat",     # "InstallThirdPartyBloat",
 	# "UninstallWindowsStore",      # "InstallWindowsStore",
 	"DisableXboxFeatures",          # "EnableXboxFeatures",
-	"DisableAdobeFlash",            # "EnableAdobeFlash",
+	# "DisableAdobeFlash",            # "EnableAdobeFlash",
 	"DisableEdgeShortcutCreation",  # "EnableEdgeShortcutCreation",
 	# "UninstallMediaPlayer",       # "InstallMediaPlayer",
 	# "UninstallInternetExplorer",  # "InstallInternetExplorer",
@@ -152,11 +152,11 @@ $tweaks = @(
 	# "EnableAudio",                # "DisableAudio",
 
 	### Unpinning ###
-	# "UnpinStartMenuTiles",
+	"UnpinStartMenuTiles",
 	# "UnpinTaskbarIcons",
 
 	### Auxiliary Functions ###
-	"WaitForKey",
+	# "WaitForKey",
 	"Restart"
 )
 
@@ -1938,23 +1938,23 @@ Function UninstallMsftBloat {
 	Get-AppxPackage "Microsoft.BingWeather" | Remove-AppxPackage
 	Get-AppxPackage "Microsoft.CommsPhone" | Remove-AppxPackage
 	Get-AppxPackage "Microsoft.ConnectivityStore" | Remove-AppxPackage
-	Get-AppxPackage "Microsoft.GetHelp" | Remove-AppxPackage
+	# Get-AppxPackage "Microsoft.GetHelp" | Remove-AppxPackage
 	Get-AppxPackage "Microsoft.Getstarted" | Remove-AppxPackage
 	Get-AppxPackage "Microsoft.Messaging" | Remove-AppxPackage
 	Get-AppxPackage "Microsoft.Microsoft3DViewer" | Remove-AppxPackage
 	Get-AppxPackage "Microsoft.MicrosoftOfficeHub" | Remove-AppxPackage
 	Get-AppxPackage "Microsoft.MicrosoftPowerBIForWindows" | Remove-AppxPackage
 	Get-AppxPackage "Microsoft.MicrosoftSolitaireCollection" | Remove-AppxPackage
-	Get-AppxPackage "Microsoft.MicrosoftStickyNotes" | Remove-AppxPackage
-	Get-AppxPackage "Microsoft.MinecraftUWP" | Remove-AppxPackage
-	Get-AppxPackage "Microsoft.MSPaint" | Remove-AppxPackage
-	Get-AppxPackage "Microsoft.NetworkSpeedTest" | Remove-AppxPackage
+	# Get-AppxPackage "Microsoft.MicrosoftStickyNotes" | Remove-AppxPackage
+	# Get-AppxPackage "Microsoft.MinecraftUWP" | Remove-AppxPackage
+	# Get-AppxPackage "Microsoft.MSPaint" | Remove-AppxPackage
+	# Get-AppxPackage "Microsoft.NetworkSpeedTest" | Remove-AppxPackage
 	Get-AppxPackage "Microsoft.Office.OneNote" | Remove-AppxPackage
 	Get-AppxPackage "Microsoft.Office.Sway" | Remove-AppxPackage
 	Get-AppxPackage "Microsoft.OneConnect" | Remove-AppxPackage
 	Get-AppxPackage "Microsoft.People" | Remove-AppxPackage
 	Get-AppxPackage "Microsoft.Print3D" | Remove-AppxPackage
-	Get-AppxPackage "Microsoft.RemoteDesktop" | Remove-AppxPackage
+	# Get-AppxPackage "Microsoft.RemoteDesktop" | Remove-AppxPackage
 	Get-AppxPackage "Microsoft.SkypeApp" | Remove-AppxPackage
 	Get-AppxPackage "Microsoft.Wallet" | Remove-AppxPackage
 	Get-AppxPackage "Microsoft.WindowsAlarms" | Remove-AppxPackage
@@ -1964,7 +1964,7 @@ Function UninstallMsftBloat {
 	Get-AppxPackage "Microsoft.WindowsMaps" | Remove-AppxPackage
 	Get-AppxPackage "Microsoft.WindowsPhone" | Remove-AppxPackage
 	Get-AppxPackage "Microsoft.Windows.Photos" | Remove-AppxPackage
-	Get-AppxPackage "Microsoft.WindowsSoundRecorder" | Remove-AppxPackage
+	# Get-AppxPackage "Microsoft.WindowsSoundRecorder" | Remove-AppxPackage
 	Get-AppxPackage "Microsoft.ZuneMusic" | Remove-AppxPackage
 	Get-AppxPackage "Microsoft.ZuneVideo" | Remove-AppxPackage
 }
